@@ -1,0 +1,79 @@
+body, html {height: 100%;}
+
+body {
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+#title {
+    font-family: Helvetica;
+}
+
+#description {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: italic;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 50%;
+    background-color: rgb(192, 192, 192);
+    text-align: left;
+    font-family: Helvetica;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#name, #email, #number {
+    height: 20px;
+    width: 95%;
+}
+
+option {
+    font-family: Helvetica;
+}
+
+select {
+    height: 27px;
+    width: 96.5%;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 95%;
+    border-radius: 4px;
+}
+
+input {
+    border-radius: 4px;
+}
+
+button {
+    width: 96.5%;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Lucida Sans';
+}
+

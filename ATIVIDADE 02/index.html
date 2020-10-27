@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formulário</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <div id="main">
+            <h1 id="title">Formulário de Sobrevivência</h1>
+            <p id="description">Obrigado por nos ajudar a sobreviver no fim do mundo.</p>
+        
+            <div id="formulario">
+                <form action="" id="survey-form">
+                    <label for="nome" id="name-label">Nome</label><br>
+                    <input type="text" id="name" placeholder="Digite o seu nome" required><br><br>
+
+                    <label for="email" id="email-label">Email</label><br>
+                    <input type="email" id="email" placeholder="Digite o seu email" required><br><br>
+
+                    <label for="idade" id="number-label">Idade</label><br>
+                    <input type="number" id="number" placeholder="Idade" min="16" max="65" required><br><br>
+
+                    <label for="personagem">Qual personagem você seria no fim do mundo?</label><br>
+                    <select name="personagem" id="dropdown" required>
+                        <option value="" id="selecione" disabled selected>Selecione uma opção: </option>
+                        <option value="guerreiro"> Guerreiro </option>
+                        <option value="mago"> Mago</option>
+                        <option value="ladrao"> Ladrão </option>
+                        <option value="arqueiro"> Arqueiro </option>
+                        <option value="medico"> Médico </option>
+                    </select><br><br>
+
+                    <label for="sentimento">Como está se sentindo respondendo esse formulário?</label><br>
+                    <input type="radio" name="otimo">Ótimo<br>
+                    <input type="radio" name="bem">Bem<br>
+                    <input type="radio" name="normal">Normal<br>
+                    <input type="radio" name="mal">Mal<br><br>
+
+                    <label>Com quem queria passar o fim do mundo?</label><br>
+                    <select name="select" id="dropdown" required>
+                        <option value="" id="selecione" disabled selected>Selecione uma opção: </option>
+                        <option value="familia"> Familia </option>
+                        <option value="amigos"> Amigos </option>
+                        <option value="companheira"> Companheira </option>
+                        <option value="sozinho"> Sozinho</option>
+                    </select><br><br>
+
+                    <label for="arma">Quais armas você usuria para combater um ataque alienigena?</label><br>
+                    <input type="checkbox" name="Espada">Espada<br>
+                    <input type="checkbox" name="Cajado">Cajado<br>
+                    <input type="checkbox" name="Livro">Livro<br>
+                    <input type="checkbox" name="Machado">Machado<br>
+                    <input type="checkbox" name="Arma de fogo">Arma de fogo<br>
+                    <input type="checkbox" name="Super Força">Super Força<br><br>
+
+                    <label for="mensagem">Você tem algum segredo sobre o fim do mundo?</label><br>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Nos dê uma dica para escaparmos do fim do mundo"></textarea><br><br>
+
+                    <button type="submit" id="submit">ENVIAR</button><br><br>
+                </form>
+            </div><br><br>
+        </div>
+       
+    </body>
+</html>
