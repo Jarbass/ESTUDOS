@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <div class="container">
+            <h1>Calculadora - IMC</h1>
+            <div class="divisor"></div>
+
+            <div class="container-2">
+                <div class="input">
+                    <label for="">Nome:</label>
+                    <input type="text" id="nome">
+                </div>
+
+                <div class="input">
+                    <label for="">Altura:</label>
+                    <input type="number" id="altura">
+                </div>
+
+                <div class="input">
+                    <label for="">Peso:</label>
+                    <input type="number" id="peso">
+                </div>
+            </div>
+            <button id="calcular">Calcular</button>
+
+            <div class="result" id="resultado"></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
