@@ -1,0 +1,86 @@
+//TITULO
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-right: 780px;
+}
+
+//NAVEGAÇÃO
+
+.navegation {
+    display: flex;
+    justify-content: center;
+    margin-right: 780px;
+    padding-left: 200px;
+    max-width: 100%;
+    height: 70px;
+
+    ul {
+        display: flex;
+        padding-top: 10px;
+        
+        li + li {
+            margin-left: 60px;
+        }
+    }
+}
+
+//MAIN
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+//DIV SÓ PRA DIVIDIR O CONTEÚDO
+.content {
+    display: flex;
+    justify-content: center;
+
+    .content-1 {
+        content: "";
+        background-color: rgb(224, 224, 224);
+        width: 700px;
+        height: 0.3em;
+        margin-top: 20px;
+    }
+}
+
+
+
+//DISCOS 
+
+.discos {
+    display: flex;
+    justify-content: center;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
+    div + div {
+        margin-left: 115px;
+    }
+}
+
+//FOOTER
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+}

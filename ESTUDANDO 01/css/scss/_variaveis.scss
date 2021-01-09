@@ -1,0 +1,15 @@
+//TIPOGRAFIA
+$font-1: 'Prompt', sans-serif;
+$font-2: 'Roboto', sans-serif;
+
+//CORES
+$color-button: #f87d19;
+$color-hover:#ebdd1e;
+
+
+//MIXIN
+@mixin box-shadow($shadow...) {
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    box-shadow: $shadow;
+}

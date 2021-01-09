@@ -1,0 +1,42 @@
+.banner {
+    width: 600px;
+    height: 320px;
+    border-radius: 10px;
+}
+
+.descricao {
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+
+    h2 {
+        font-family: $font-2;
+        font-weight: 700;
+        font-size: 1.2em;  
+        margin: 10px 0px 20px 10px;
+    }
+
+    p {
+        font-family: $font-2;
+        font-size: 0.9em;
+        padding: 0px 20px 0px 10px;
+        text-align: justify;
+    }
+
+    button {
+        margin: 25px 0px 10px 10px;
+        width: 120px;
+        height: 30px;
+        font-family: $font-2;
+        font-weight: 500;
+        border-radius: 20px;
+        background-color: $color-button;
+        border: none;
+        transition: 0.2s;
+
+        &:hover {
+            cursor: pointer;
+            background-color: $color-hover;
+        }
+    }
+}

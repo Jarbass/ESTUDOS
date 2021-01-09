@@ -1,0 +1,26 @@
+.nav {
+    font-family: $font-2;
+    font-size: 0.9em;
+}
+
+
+ul {
+    li{
+        width: 90px;
+        height: 30px;
+        border-radius: 20px;
+        text-align: center;
+        padding-top: 13px;
+        transition: .3s;
+
+        &:hover {
+            background-color: $color-hover;
+            cursor: pointer;
+        }
+        
+        a{
+            text-decoration: none;
+            color: black;  
+        }
+    }
+}
