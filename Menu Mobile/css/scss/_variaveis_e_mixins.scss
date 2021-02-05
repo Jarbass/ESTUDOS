@@ -1,0 +1,24 @@
+//fonts
+$font-title: 'Lato', sans-serif;
+$font-text: 'Roboto Slab', serif;
+
+//colors
+$primary-color: #FBFBFF;
+$secondary-color: #657ED4;
+$background-color: #0D0106;
+
+//responsive
+$desktop: 1440px;
+$mobile: 450px;
+
+@mixin responsive($tela) {
+    @if $tela == desktop {
+        @media screen and (min-width: $desktop) {
+            @content;
+        }
+    } @else if $tela == mobile {
+        @media screen and (max-width: $mobile) {
+            @content;
+        }
+    }
+}
